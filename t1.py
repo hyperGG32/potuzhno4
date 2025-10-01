@@ -35,6 +35,6 @@ cart.extend(["cheese", "butter"])
 print("Updated cart:", end=' ')
 for e in cart:
     if e == cart[-1]:
-        print(e)
+        print(e, end='.')
         break
     print(e, end=', ')
