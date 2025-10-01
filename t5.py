@@ -29,7 +29,7 @@ print("(Starter) Text:", text)
 # Optional: build a list of tuples (word, length) and print it
 text = text.split()
 tuples = []
-for i, c in enumerate(text):
+for c in text:
     c = c.strip(' .?!,')
     print(f"{c} -> {len(c)}")
     tuples.append((c, len(c)))
