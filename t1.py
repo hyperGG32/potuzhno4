@@ -28,8 +28,8 @@ cart = ["milk", "bread", "eggs", "apples", "coffee"]
 
 print("(Starter) Initial cart:", cart)
 
-for i, e in enumerate(cart):
-    print(i + 1, e, sep=". ")
+for i, e in enumerate(cart, 1):
+    print(i, e, sep=". ")
 
 cart.extend(["cheese", "butter"])
 print("Updated cart:", end=' ')
